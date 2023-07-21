@@ -58,7 +58,7 @@ func kel7(){
 ## Tugas 3
 ### Buatlah sebuah program untuk menghitung luas bangun trapesium
 Langkah 1: Menulis Kode Program
-Rumus Luas Trapesium: ```go luas = 0.5 * (sisi1 + sisi2) * tinggi ```
+Rumus Luas Trapesium: ``` luas = 0.5 * (sisi1 + sisi2) * tinggi ```
 ```go
 // Fungsi untuk menghitung luas trapesium
 func trapesium(){
