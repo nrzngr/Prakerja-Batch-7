@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// Fungsi untuk mengecek apakah sebuah bilangan merupakan bilangan prima
 func bilPrim(){
 	var primNum, primcount int
 	
@@ -26,12 +27,15 @@ func bilPrim(){
 	}
 }
 
+// Fungsi untuk mengecek suatu bilangan habis dibagi 7 atau tidak
 func kel7(){
 	var num int
 
+	// Untuk menerima user input dan meletakkan hasil input ke variabel num
     fmt.Print("Masukan angka =  ")
     fmt.Scanln(&num)
 
+	// If statement jika bilangan tersebut habis dibagi 7 atau tidak
     if num % 7 == 0 {
         fmt.Println(num, " Merupakan bilangan kelipatan 7")
     } else {
@@ -39,7 +43,9 @@ func kel7(){
     }
 }
 
+// Fungsi untuk menghitung luas trapesium
 func trapesium(){
+
 	var sisi1, sisi2, tinggi, luas float64
 	
 
