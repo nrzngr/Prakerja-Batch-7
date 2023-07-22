@@ -1,4 +1,4 @@
-# Day 2 Go-Lang | Alterra Academy
+# Day 2 Go-Lang | Alterra Academy x Prakerja
 
 ## Tugas 1
 ### Buatlah sebuah program untuk menentukan bilang prima
